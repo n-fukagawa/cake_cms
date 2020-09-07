@@ -1,0 +1,879 @@
+2020-09-02 09:50:22 Error: [Cake\View\Exception\MissingTemplateException] Template file "Articles/index.ctp" is missing. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php:1605)
+Exception Attributes: array (
+  'file' => 'Articles/index.ctp',
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php(888): Cake\View\View->_getViewFileName('Articles/index')
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /articles/index
+
+
+2020-09-02 09:50:53 Error: [Cake\View\Exception\MissingTemplateException] Template file "Articles/index.ctp" is missing. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php:1605)
+Exception Attributes: array (
+  'file' => 'Articles/index.ctp',
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php(888): Cake\View\View->_getViewFileName('Articles/index')
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /articles/index
+
+
+2020-09-02 10:11:59 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles/view/first-post
+Referer URL: http://localhost:8765/articles/index
+
+
+2020-09-02 10:19:54 Error: [Cake\View\Exception\MissingTemplateException] Template file "Articles/view.ctp" is missing. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php:1605)
+Exception Attributes: array (
+  'file' => 'Articles/view.ctp',
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/View/View.php(888): Cake\View\View->_getViewFileName('Articles/view')
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /articles/view/first-post
+
+
+2020-09-02 10:21:06 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles" (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:487)
+#0 /Users/hukagawa/cms/src/Controller/ArticlesController.php(16): Cake\ORM\Query->firstOrFail()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->view('abcd')
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /articles/view/abcd
+
+
+2020-09-02 10:21:35 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles" (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:487)
+#0 /Users/hukagawa/cms/src/Controller/ArticlesController.php(16): Cake\ORM\Query->firstOrFail()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->view('first-posts')
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#21 {main}
+Request URL: /articles/view/first-posts
+
+
+2020-09-02 10:59:48 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'slug' doesn't have a default value (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:37)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2136): Cake\Database\Query->execute()
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\Article), Array)
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Article), Object(ArrayObject))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 /Users/hukagawa/cms/src/Controller/ArticlesController.php(39): Cake\ORM\Table->save(Object(App\Model\Entity\Article))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+
+
+2020-09-02 11:08:36 Error: [Error] Class 'App\Model\Table\Text' not found (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:16)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(351): App\Model\Table\ArticlesTable->beforeSave(Object(Cake\Event\Event), Object(App\Model\Entity\Article), Object(ArrayObject))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2007): Cake\ORM\Table->dispatchEvent('Model.beforeSav...', Array)
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Article), Object(ArrayObject))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(39): Cake\ORM\Table->save(Object(App\Model\Entity\Article))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+
+
+2020-09-02 11:09:43 Error: [Error] Class 'App\Model\Table\Text' not found (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:16)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(351): App\Model\Table\ArticlesTable->beforeSave(Object(Cake\Event\Event), Object(App\Model\Entity\Article), Object(ArrayObject))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2007): Cake\ORM\Table->dispatchEvent('Model.beforeSav...', Array)
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Article), Object(ArrayObject))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(39): Cake\ORM\Table->save(Object(App\Model\Entity\Article))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+
+
+2020-09-02 11:16:45 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:7)
+#0 /Users/hukagawa/cms/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/hukagawa...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('App\\Model\\Table...')
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Core/App.php(63): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Ar...', 'App')
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(276): Cake\Core\App::className('Articles', 'Model/Table', 'Table')
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(219): Cake\ORM\Locator\TableLocator->_getClassName('Articles', Array)
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php(127): Cake\ORM\Locator\TableLocator->get('Articles', Array)
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(371): Cake\Controller\Controller->loadModel('Articles')
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(30): Cake\Controller\Controller->__get('Articles')
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/index
+
+
+2020-09-02 11:16:48 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:7)
+#0 /Users/hukagawa/cms/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/hukagawa...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('App\\Model\\Table...')
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Core/App.php(63): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Ar...', 'App')
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(276): Cake\Core\App::className('Articles', 'Model/Table', 'Table')
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(219): Cake\ORM\Locator\TableLocator->_getClassName('Articles', Array)
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php(127): Cake\ORM\Locator\TableLocator->get('Articles', Array)
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(371): Cake\Controller\Controller->loadModel('Articles')
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(19): Cake\Controller\Controller->__get('Articles')
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->index()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/index
+
+
+2020-09-02 11:17:25 Error: [Error] Class 'App\Model\Table\Text' not found (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:16)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(351): App\Model\Table\ArticlesTable->beforeSave(Object(Cake\Event\Event), Object(App\Model\Entity\Article), Object(ArrayObject))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2007): Cake\ORM\Table->dispatchEvent('Model.beforeSav...', Array)
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Article), Object(ArrayObject))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(39): Cake\ORM\Table->save(Object(App\Model\Entity\Article))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+
+
+2020-09-02 11:22:08 Error: [Error] Class 'App\Model\Table\Text' not found (/Users/hukagawa/cms/src/Model/Table/ArticlesTable.php:16)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(351): App\Model\Table\ArticlesTable->beforeSave(Object(Cake\Event\Event), Object(App\Model\Entity\Article), Object(ArrayObject))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(2007): Cake\ORM\Table->dispatchEvent('Model.beforeSav...', Array)
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Article), Object(ArrayObject))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Database/Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/ORM/Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#9 /Users/hukagawa/cms/src/Controller/ArticlesController.php(39): Cake\ORM\Table->save(Object(App\Model\Entity\Article))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->add()
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#30 {main}
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+
+
+2020-09-02 11:24:02 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Debugger.php line=855 in [/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 53]
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-09-02 11:24:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Debugger.php:855) in [/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 154]
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-09-02 11:24:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Debugger.php:855) in [/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 183]
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-09-02 11:24:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Debugger.php:855) in [/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 183]
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-09-02 11:24:02 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Debugger.php:855) in [/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 183]
+Request URL: /articles/add
+Referer URL: http://localhost:8765/articles/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-09-03 01:25:14 Error: [ArgumentCountError] Too few arguments to function App\Controller\ArticlesController::edit(), 0 passed in /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php on line 606 and exactly 1 expected (/Users/hukagawa/cms/src/Controller/ArticlesController.php:47)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->edit()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /articles/edit
+Referer URL: http://localhost:8765/articles
+
+
+2020-09-03 01:26:20 Error: [ArgumentCountError] Too few arguments to function App\Controller\ArticlesController::edit(), 0 passed in /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php on line 606 and exactly 1 expected (/Users/hukagawa/cms/src/Controller/ArticlesController.php:47)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php(606): App\Controller\ArticlesController->edit()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /articles/edit
+Referer URL: http://localhost:8765/articles
+
+
+2020-09-03 02:30:23 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tagd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tagd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles/tagd/1
+
+
+2020-09-03 02:30:28 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tagd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tagd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles/tagd/15
+
+
+2020-09-03 02:30:34 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tagd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tagd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles/tagd/5
+
+
+2020-09-03 02:35:13 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tagd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tagd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles/tagd
+
+
+2020-09-03 02:35:44 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tagd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tagd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /articles/tagd
+
+
+2020-09-03 02:36:03 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::taggd() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'taggd',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /articles/taggd
+
+
+2020-09-03 02:36:09 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tags() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tags',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /articles/tagged
+
+
+2020-09-03 02:36:33 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::tags() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'tags',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /articles/tagged/
+
+
+2020-09-03 04:35:05 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::aaaa() could not be found, or is not accessible. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Controller/Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'aaaa',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /articles/aaaa
+
+
+2020-09-03 04:56:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /logout
+
+
+2020-09-07 04:35:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bookmarks could not be found. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Bookmarks',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /bookmarks
+
+
+2020-09-07 04:36:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cms could not be found. (/Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Cms',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/hukagawa/cms/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/hukagawa/cms/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /Users/hukagawa/cms/webroot/index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /cms
+
+
